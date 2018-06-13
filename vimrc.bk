@@ -1,0 +1,73 @@
+""""""""""""
+" using https://github.com/flazz/vim-colorschemes
+
+" for vim 7
+set t_Co=256
+
+" for vim 8
+"if (has("termguicolors"))
+" set termguicolors
+"endif
+
+" set colorscheme
+colorscheme github
+
+""""""""""""
+
+" enable syntax highlighting
+syntax enable
+
+" highlight all search matches
+set hlsearch
+
+" set highlighted search color
+highlight Search ctermbg=red guibg=red
+
+" set highlighted search color
+highlight ExtraWhitespace ctermbg=red guibg=red
+
+" highlight trailing whitespace
+match ExtraWhitespace /\s\+$/
+
+" set numbered lines
+set nu
+
+" use spaces for indenting
+set expandtab
+
+" turn off line wrapping
+"set nowrap
+
+" set tab
+set smarttab
+
+" tab size
+set tabstop=4
+
+" size of indent
+set shiftwidth=4
+
+" auto indenting
+set smartindent
+
+" auto indent
+set ai
+
+" smart indent
+set si
+
+" wrap lines
+set wrap
+
+" case insensitive searching by default
+set ignorecase smartcase
+
+" for regex
+set magic
+
+" show matching brackets when hovering
+set showmatch
+
+" how many seconds to blink when showing match
+set mat=2
+
